@@ -13,6 +13,13 @@ body{
     flex-wrap: wrap;
 }
 
+img{
+    display: flex;
+    position: absolute;
+    right: 15px;
+    height: 150px;
+}
+
 .foto{
     background-color: aqua;
 }
@@ -91,12 +98,14 @@ section.um{
 .fotos{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    align-content: center;
-    row-gap: 20px;
+    
 }
 
 .imagem{
+    display: flex;
+    margin: 5px;
     background-color: white;
     width: 200px;
     height: 200px; 
