@@ -13,13 +13,10 @@ body{
     flex-wrap: wrap;
 }
 
-.foto{
-    background-color: aqua;
-}
-
 header{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     height: 150px;
     width: 100%;
     padding: 10px;
@@ -28,27 +25,12 @@ header{
     text-decoration: underline rgb(211, 164, 35);
 }
 
-.logo{
-    display: flex;
-    position: absolute;
-    left: 15px;
-}
-
-.mobile-menu{
-    position: relative;
-    top: 115px;
-}
-
-.nav{
-    color: rgb(211, 211, 121);
-}
-
-.nav-list{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-
+h1{
+    background-color: rgb(0, 100, 0);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.623);
+    padding: 3px;
+    border-radius: 6px;
+    align-self: center;
 }
 
 @media (min-width: 999px) {
@@ -59,14 +41,6 @@ header{
     .nav + .nav{
         margin-left: 15px;
     }
-}
-
-h1{
-    background-color: rgb(0, 100, 0);
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.623);
-    padding: 3px;
-    border-radius: 6px;
-    align-self: center;
 }
 
 section{
@@ -103,7 +77,7 @@ section.um{
     margin: 20px;
 }
 
-section.links{
+.links{
     background-color: rgba(0, 128, 0, 0.377);
 }
 
